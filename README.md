@@ -27,20 +27,61 @@ mittelstand-ad-toolkit/
 │   ├── Disable-SPUser.ps1          # Offboarding: standardized disable workflow
 │   ├── Get-SPADHealthReport.ps1    # Weekly HTML health report
 │   ├── Reset-SPPassword.ps1        # Helpdesk password reset with logging
+│   ├── Initialize-SPOUStructure.ps1 # OU structure bootstrap
 │   └── SPCommon.psm1               # Shared functions (logging, config, email)
 ├── config/
-│   └── config.psd1                 # Central configuration (domain, OUs, paths)
+│   └── config.psd1                 # Central configuration
 ├── docs/
-│   ├── 01-naming-conventions.md    # User/computer/group naming rules
-│   ├── 02-ou-structure.md          # OU design and delegation model
-│   ├── 03-lab-setup.md             # How to build the test lab
-│   ├── 04-runbook-onboarding.md    # SOP for onboarding (DE/EN)
-│   └── 05-runbook-offboarding.md   # SOP for offboarding (DE/EN)
+│   ├── 01-naming-conventions.md
+│   ├── 02-ou-structure.md
+│   ├── 03-lab-setup.md
+│   ├── 04-runbook-onboarding.md
+│   └── 05-runbook-offboarding.md
 ├── examples/
-│   ├── new-hires-2026-01.csv       # Sample input for onboarding
-│   └── leavers-2026-01.csv         # Sample input for offboarding
+│   ├── new-hires-2026-01.csv
+│   └── leavers-2026-01.csv
+├── screenshots/                    # Demo screenshots from the lab run
+├── QUICKSTART.md                   # 30-minute setup guide
 └── README.md
+
 ```
+## 📸 Screenshots
+
+Real screenshots from running the toolkit against a Windows Server 2022 lab domain (schmidt-partner.local).
+
+**Project Files**
+
+![Project Files](screenshots/02_project_files.png)
+
+**Powershell File Encoding Line Endings**
+
+![Powershell File Encoding Line Endings](screenshots/03_powershell_file_encoding_line_endings.png)
+
+**Here String Checks**
+
+![Here String Checks](screenshots/04_here_string_checks.png)
+
+**Import Module Path Checks**
+
+![Import Module Path Checks](screenshots/05_import_module_path_checks.png)
+
+**Csv Schema Checks**
+
+![Csv Schema Checks](screenshots/06_csv_schema_checks.png)
+
+**Config Consistency Checks**
+
+![Config Consistency Checks](screenshots/07_config_consistency_checks.png)
+
+**Targeted Code Checks**
+
+![Targeted Code Checks](screenshots/08_targeted_code_checks.png)
+
+**Run These On Your Windows Ad Rsat Machine From The Project Root**
+
+![Run These On Your Windows Ad Rsat Machine From The Project Root](screenshots/10_run_these_on_your_windows_ad_rsat_machine_from_the_project_root.png)
+
+
 
 ## 🚀 Quick Start
 
