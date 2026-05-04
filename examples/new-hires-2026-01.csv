@@ -1,0 +1,9 @@
+GivenName;Surname;Department;JobTitle;Manager;Office;StartDate;EmployeeId
+Max;Mustermann;Sales;Account Manager;andreas.becker;Berlin;2026-05-15;EMP10001
+Anna;Müller;Finance;Junior Controller;sabine.schmidt;Munich;2026-05-15;EMP10002
+Jürgen;Weiß;IT;System Administrator;thomas.huber;Berlin;2026-06-01;EMP10003
+Fatma;Yilmaz;HR;HR Business Partner;sabine.schmidt;Hamburg;2026-06-01;EMP10004
+Hans-Peter;Schäfer;Operations;Operations Specialist;andreas.becker;Frankfurt;2026-06-15;EMP10005
+Liu;Wei;IT;Cloud Engineer;thomas.huber;Berlin;2026-06-15;EMP10006
+Martina;Köhler;Marketing;Content Manager;andreas.becker;Munich;2026-07-01;EMP10007
+Dimitri;Schwarzmann;Sales;Sales Engineer;andreas.becker;Hamburg;2026-07-01;EMP10008

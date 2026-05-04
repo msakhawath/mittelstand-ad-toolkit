@@ -1,0 +1,24 @@
+# Logs and runtime artifacts
+logs/
+*.log
+*.tmp
+
+# Generated reports
+ADHealthReport_*.html
+OnboardingResults_*.csv
+Audit_*.csv
+
+# Local config overrides
+config.local.psd1
+*.user.psd1
+
+# OS / Editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# PowerShell module compiled output
+bin/
+obj/
