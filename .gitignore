@@ -22,3 +22,5 @@ Thumbs.db
 # PowerShell module compiled output
 bin/
 obj/
+
+screenshots-section.md
